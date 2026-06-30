@@ -1,0 +1,16 @@
+{
+  "name": "security-audit-agent",
+  "version": "0.1.0",
+  "description": "Cybersecurity auditing agent — OWASP Top 10, mobile, infra, and LLM/AI security analysis",
+  "type": "module",
+  "main": ".opencode/plugins/plugin.js",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "security-audit",
+    "owasp",
+    "vulnerability-scanning",
+    "pentest",
+    "subagent"
+  ]
+}

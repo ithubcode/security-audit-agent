@@ -1,0 +1,29 @@
+{
+  "name": "security-audit-agent",
+  "description": "Cybersecurity auditing agent",
+  "skills": [],
+  "agents": {
+    "security-audit": {
+      "description": "Cybersecurity audit for OWASP Top 10, mobile, infra, and LLM/AI vulnerabilities",
+      "prompt": "agents/security-audit.md",
+      "mode": "subagent",
+      "permission": {
+        "edit": {
+          "security-audit/*": "allow",
+          "*": "deny"
+        },
+        "bash": {
+          "*": "ask",
+          "grep *": "allow",
+          "rg *": "allow",
+          "ls *": "allow",
+          "find *": "allow",
+          "mkdir *": "allow",
+          "pip list": "allow",
+          "npm list *": "allow",
+          "go list *": "allow"
+        }
+      }
+    }
+  }
+}
