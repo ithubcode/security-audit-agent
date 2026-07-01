@@ -1,6 +1,5 @@
 <p align="center">
-  <strong>🛡️ security-audit-agent</strong><br>
-  <em>Cybersecurity Auditing Agent — OWASP A01-A11 · Mobile · Cloud · LLM/AI</em>
+  <img src="media/banner.svg" alt="security-audit-agent banner" width="800">
 </p>
 
 <p align="center">
@@ -8,9 +7,7 @@
   <img alt="Platform" src="https://img.shields.io/badge/platform-OpenCode%20|%20Claude%20Code%20|%20Codex%20|%20Gemini-lightgrey">
 </p>
 
----
-
-**security-audit-agent** is an AI-powered subagent that performs automated security analysis of source code, configuration files, and infrastructure definitions. It follows OWASP Top 10 (2021), OWASP Mobile Top 10, and industry best practices — including LLM/AI security. It runs as an isolated agent, never modifying code, only reporting findings to `security-audit/`.
+<strong>security-audit-agent</strong> is an AI-powered subagent that performs automated security analysis of source code, configuration files, and infrastructure definitions. It follows OWASP Top 10 (2021), OWASP Mobile Top 10, and industry best practices — including LLM/AI security. It runs as an isolated agent, never modifying code, only reporting findings to `security-audit/`.
 
 ---
 
@@ -155,3 +152,7 @@ Findings: 8 (1 Critical, 3 High, 3 Medium, 1 Low)
 ## License
 
 MIT
+
+---
+
+<p align="center"><em>by <strong>ITHub</strong></em></p>
