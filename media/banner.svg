@@ -31,12 +31,9 @@
     OWASP A01-A11 · Mobile · Cloud · LLM/AI · Infra
   </text>
 
-  <!-- Status badges -->
-  <rect x="530" y="95" width="130" height="32" rx="6" fill="#2a1515" stroke="#ef4444" stroke-width="1"/>
-  <text x="595" y="116" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f87171" text-anchor="middle">Powered by AI</text>
-
-  <rect x="530" y="135" width="130" height="32" rx="6" fill="#2a1515" stroke="#4a2525" stroke-width="1"/>
-  <text x="595" y="156" font-family="sans-serif" font-size="14" font-weight="bold" fill="#c0c0c0" text-anchor="middle">v0.1.0</text>
+  <!-- Powered by ITHub badge -->
+  <rect x="530" y="130" width="160" height="36" rx="8" fill="#2a1515" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="610" y="153" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f87171" text-anchor="middle">Powered by ITHub</text>
 
   <!-- Bottom accent bar -->
   <rect x="40" y="196" width="720" height="1" rx="0.5" fill="#2a1515"/>
