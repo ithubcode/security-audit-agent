@@ -27,5 +27,5 @@
   <line x1="30" y1="168" x2="770" y2="168" stroke="#2a1515" stroke-width="1"/>
 
   <!-- Bottom bar: Powered by ITHub -->
-  <text x="760" y="186" font-family="sans-serif" font-size="12" fill="#ef4444" text-anchor="end">Powered by ITHub</text>
+  <text x="760" y="186" font-family="sans-serif" font-size="12" fill="#ef4444" text-anchor="end">Powered by ITHub - v0.1.0</text>
 </svg>
