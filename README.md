@@ -1,13 +1,14 @@
-╔══════════════════════════════════════════════════════════════╗
-║     ____                  _ _            _ _ _              ║
-║    / ___|  ___ ___  _   _| | |_ __ _    | | (_)_   _       ║
-║    \\___ \\ / __/ _ \\| | | | | __/ _` |   | | | | | | |   ║
-║     ___) | (_| (_) | |_| | | || (_| |   | | | | |_| |      ║
-║    |____/ \\___\\___/ \\__,_|_|\\__\\__,_|   |_|_|_|\\__, |   ║
-║                                                 |___/        ║
-║         Cybersecurity Auditing Agent                         ║
-║         ~ OWASP A01-A11 · Mobile · Cloud · LLM/AI ~          ║
-╚══════════════════════════════════════════════════════════════╝
+<p align="center">
+  <strong>🛡️ security-audit-agent</strong><br>
+  <em>Cybersecurity Auditing Agent — OWASP A01-A11 · Mobile · Cloud · LLM/AI</em>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-OpenCode%20|%20Claude%20Code%20|%20Codex%20|%20Gemini-lightgrey">
+</p>
+
+---
 
 **security-audit-agent** is an AI-powered subagent that performs automated security analysis of source code, configuration files, and infrastructure definitions. It follows OWASP Top 10 (2021), OWASP Mobile Top 10, and industry best practices — including LLM/AI security. It runs as an isolated agent, never modifying code, only reporting findings to `security-audit/`.
 
@@ -30,9 +31,8 @@
 ## Coverage
 
 ```
-OWASP Top 10 2021   Mobile Top 10   Infrastructure   LLM/AI Security   Cloud (AWS/GCP/Azure)
-    A01-A10           M01-M10       Docker/K8s/TF        A11              ✅
-      ✅               ✅               ✅               ✅               ✅
+OWASP Top 10 2021   Mobile Top 10   Infrastructure   LLM/AI Security   Cloud
+    A01-A10           M01-M10       Docker/K8s/TF        A11        AWS/GCP/Azure
 ```
 
 ## Platforms Detected
@@ -98,16 +98,14 @@ security-audit/
 ### Sample report
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  Cybersecurity Audit Report: my-project                     │
-│  OWASP Top 10 2021 · Mobile · Infra · LLM/AI                │
-│  Findings: 8 (1 Critical, 3 High, 3 Medium, 1 Low)         │
-├─────────────────────────────────────────────────────────────┤
-│  A03 [Critical] SQL Injection — routes/products.ts:24       │
-│  A01 [High]     IDOR in order lookup — routes/orders.ts:42  │
-│  A11 [High]     Prompt injection surface — ai/chat.ts:15   │
-│  M02 [Critical] Plaintext token storage — app/login.kt:33  │
-└─────────────────────────────────────────────────────────────┘
+Cybersecurity Audit Report: my-project
+OWASP Top 10 2021 · Mobile · Infra · LLM/AI
+Findings: 8 (1 Critical, 3 High, 3 Medium, 1 Low)
+
+  A03 [Critical] SQL Injection — routes/products.ts:24
+  A01 [High]     IDOR in order lookup — routes/orders.ts:42
+  A11 [High]     Prompt injection surface — ai/chat.ts:15
+  M02 [Critical] Plaintext token storage — app/login.kt:33
 ```
 
 ## Vulnerability Categories
